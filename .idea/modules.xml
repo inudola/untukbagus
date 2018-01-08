@@ -4,8 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BelajarCalistung.iml" filepath="$PROJECT_DIR$/BelajarCalistung.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pembelajaranapp.iml" filepath="$PROJECT_DIR$/pembelajaranapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untukbagus.iml" filepath="$PROJECT_DIR$/untukbagus.iml" />
     </modules>
   </component>
 </project>

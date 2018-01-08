@@ -35,15 +35,10 @@
         <activity android:name=".mengenal_angka" />
         <activity android:name=".LatihanHuruf" />
         <activity android:name=".BelajarLatihanWarna" />
-        <activity android:name=".audio.Audio" />
         <activity android:name=".picture.KuisWarna" />
         <activity android:name=".test.Level" />
         <activity android:name=".result.Result" />
         <activity android:name=".AboutActivity" />
-        <activity android:name=".HelpActivity" />
-        <activity android:name=".HelpAngka" />
-        <activity android:name=".HelpHuruf" />
-        <activity android:name=".HelpWarna" />
         <activity android:name=".MengenalHewan" />
         <activity android:name=".picture.KuisHewan" />
     </application>

@@ -8,8 +8,6 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.belajar.calistung.belajarcalistung.audio.Audio;
-import com.belajar.calistung.belajarcalistung.test.Level;
 
 public class LatihanHuruf extends Activity {
 
@@ -21,12 +19,9 @@ public class LatihanHuruf extends Activity {
         setContentView(R.layout.activity_latihan_huruf);
     }
 
-    public void bukalatihan(View view) {
-        Intent intent = new Intent(LatihanHuruf.this, Audio.class);
-        startActivity(intent);
-        finish();
 
-    }
+
+
     public void bukamengenalangka(View view){
         Intent intent = new Intent(LatihanHuruf.this, BelajarHitung.class);
         startActivity(intent);

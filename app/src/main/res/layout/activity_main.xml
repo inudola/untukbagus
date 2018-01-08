@@ -23,17 +23,6 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="sendMessage"
-        android:id="@+id/button4"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/tombol4"
-        android:layout_below="@+id/button3"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center" />
-
-    <Button
         android:onClick="bukahelp"
         android:background="@drawable/tombolhelp"
         android:textSize="10sp"
@@ -66,22 +55,4 @@
         android:layout_alignRight="@+id/button3"
         android:layout_alignEnd="@+id/button3" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="bukahewan"
-        android:id="@+id/button24"
-        android:background="@drawable/tombol7"
-        android:layout_below="@+id/button4"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="bukatransportasi"
-        android:background="@drawable/tombol8"
-        android:layout_below="@+id/button24"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
 </RelativeLayout>
