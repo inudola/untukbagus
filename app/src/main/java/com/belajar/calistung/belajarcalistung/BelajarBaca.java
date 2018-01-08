@@ -269,36 +269,7 @@ public class BelajarBaca extends Activity {
         return super.onCreateOptionsMenu(menu);
     }
 
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // TODO Auto-generated method stub
-        if (item.getItemId() == 1) {
-            Intent tallash = new Intent();
-            tallash.setClass(BelajarBaca.this, TebakAngka.class);
-            BelajarBaca.this.startActivity(tallash);
 
-        } else if (item.getItemId() == 2) {
-
-            if (sound == true) {
-
-                Toast toast = new Toast(this);
-                ImageView view = new ImageView(this);
-                view.setImageResource(R.drawable.off);
-                // toast.setGravity(Gravity.NO_GRAVITY,toast.getXOffset()/2,toast.getYOffset()/2);
-                toast.setView(view);
-                toast.show();
-                sound = false;
-            } else {
-                Toast toast = new Toast(this);
-                ImageView view = new ImageView(this);
-                view.setImageResource(R.drawable.on);
-                // toast.setGravity(Gravity.NO_GRAVITY,toast.getXOffset()/2,toast.getYOffset()/2);
-                toast.setView(view);
-                toast.show();
-                sound = true;
-            }
-        }
-        return true;
-    }
 
 
 }

@@ -16,11 +16,13 @@ public class AboutActivity extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_about);
+
     }
 
     public void kembali(View view) {
         Intent intent = new Intent(AboutActivity.this, MainActivity.class);
         startActivity(intent);
         finish();
+
     }
 }

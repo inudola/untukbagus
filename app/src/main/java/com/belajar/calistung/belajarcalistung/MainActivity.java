@@ -36,19 +36,13 @@ public class MainActivity extends Activity {
         }
 
     //untuk membuka aactivity
-    public void sendMessage(View view)
-    {
-        Intent intent = new Intent(MainActivity.this, BelajarLatihanWarna.class);
-        startActivity(intent);
-    }
+
+
+
     ///////////////
-    public void menuhitung(View view)
-    {
-        Intent intent = new Intent(MainActivity.this, mengenal_angka.class);
-        startActivity(intent);
-    }
+
 public void bukabaca(View view){
-    Intent intent = new Intent(MainActivity.this, LatihanHuruf.class);
+    Intent intent = new Intent(MainActivity.this, LatihanHuruf_Menu.class);
     startActivity(intent);
 }
     /*public void bukalatihan(View view) {
@@ -88,5 +82,30 @@ public void bukabaca(View view){
                     .show();
 
         }
+    public void kembali(View view) {
+        AlertDialog alertbox = new AlertDialog.Builder(this)
+            .setMessage("Ingin keluar dari Aplikasi?")
+            .setPositiveButton("YA", new DialogInterface.OnClickListener() {
+                //membuat tombol pilihan
+                // do something when the button is clicked
+                public void onClick(DialogInterface arg0, int arg1) {
+
+                    finish();
+                    //close();
+                    //tutup
+
+
+                }
+            })
+            .setNegativeButton("TIDAK", new DialogInterface.OnClickListener() {
+
+                // do something when the button is clicked
+                //saat tombol di klik
+                public void onClick(DialogInterface arg0, int arg1) {
+                }
+            })
+            .show();
+
+    }
     }
 

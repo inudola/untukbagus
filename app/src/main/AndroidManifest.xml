@@ -27,19 +27,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".MengenalWarna" />
         <activity android:name=".BelajarHitung" />
         <activity android:name=".BelajarBaca" />
-        <activity android:name=".TebakAngka" />
-        <activity android:name=".Membaca" />
-        <activity android:name=".mengenal_angka" />
-        <activity android:name=".LatihanHuruf" />
-        <activity android:name=".BelajarLatihanWarna" />
+        <activity android:name=".LatihanHuruf_Menu" />
         <activity android:name=".picture.KuisWarna" />
         <activity android:name=".test.Level" />
         <activity android:name=".result.Result" />
         <activity android:name=".AboutActivity" />
-        <activity android:name=".MengenalHewan" />
         <activity android:name=".picture.KuisHewan" />
     </application>
 
