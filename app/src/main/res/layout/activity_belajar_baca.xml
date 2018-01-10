@@ -19,7 +19,7 @@
             android:background="@drawable/imnumber20"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:layout_width="fill_parent"
+            android:layout_width="250dp"
             android:layout_marginBottom="10px"
             android:layout_height="250dp"></ImageView>
 
@@ -36,11 +36,13 @@
         android:id="@+id/lykontrol"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:background="@drawable/button_bg1"
         android:gravity="fill_horizontal|center"
         android:orientation="horizontal"
-        android:paddingBottom="2dp">
+        android:paddingBottom="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <ImageButton
             android:id="@+id/bt1"

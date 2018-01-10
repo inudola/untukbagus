@@ -16,7 +16,7 @@
 
         <ImageView
             android:id="@+id/imvwsan"
-            android:layout_width="fill_parent"
+            android:layout_width="250dp"
             android:layout_height="250dp"
             android:layout_alignParentTop="true"
             android:layout_marginBottom="10px"
@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left|start|end"
                 android:layout_marginLeft="10dp"
-                android:layout_weight="0.14"
+                android:layout_weight="0.01"
                 android:background="@drawable/arrowleft" />
 
             <ImageButton
@@ -70,7 +70,7 @@
         android:paddingBottom="2dp"
 
         android:layout_alignParentBottom="true"
-       >
+        >
 
         <ImageButton
             android:id="@+id/bt1"
