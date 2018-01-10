@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BelajarCalistung.iml" filepath="$PROJECT_DIR$/BelajarCalistung.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/untukbagus.iml" filepath="$PROJECT_DIR$/untukbagus.iml" />
     </modules>
