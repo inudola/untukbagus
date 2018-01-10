@@ -30,11 +30,7 @@
         <activity android:name=".BelajarHitung" />
         <activity android:name=".BelajarBaca" />
         <activity android:name=".LatihanHuruf_Menu" />
-        <activity android:name=".picture.KuisWarna" />
-        <activity android:name=".test.Level" />
-        <activity android:name=".result.Result" />
         <activity android:name=".AboutActivity" />
-        <activity android:name=".picture.KuisHewan" />
     </application>
 
 </manifest>
